@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZYElegantDealCellLib_Example' do
+  pod 'ZYElegantDealCellLib', :path => '../'
+
+  target 'ZYElegantDealCellLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
