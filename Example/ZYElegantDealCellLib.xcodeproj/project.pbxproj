@@ -24,6 +24,12 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B61D033D211B623500F46F49 /* ZYTestFourCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D0331211B623500F46F49 /* ZYTestFourCell.m */; };
+		B61D033F211B623500F46F49 /* ZYTestOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D0333211B623500F46F49 /* ZYTestOneCell.m */; };
+		B61D0340211B623500F46F49 /* ZYTestTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D0335211B623500F46F49 /* ZYTestTwoCell.m */; };
+		B61D0342211B623500F46F49 /* ZYTestThreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D0339211B623500F46F49 /* ZYTestThreeCell.m */; };
+		B61D0344211B623500F46F49 /* ZYViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D033B211B623500F46F49 /* ZYViewModel.m */; };
+		B61D034B211B677800F46F49 /* UIColor+ZYConvenient.m in Sources */ = {isa = PBXBuildFile; fileRef = B61D034A211B677800F46F49 /* UIColor+ZYConvenient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,11 +65,23 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7688AE5FAB03AB124C2154AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7688AE5FAB03AB124C2154AC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A292D454CF4BC2056BDE47ED /* Pods-ZYElegantDealCellLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYElegantDealCellLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYElegantDealCellLib_Tests/Pods-ZYElegantDealCellLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A93853AC98C15DC26BAF30B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B2557FA13D57830FB475CF96 /* ZYElegantDealCellLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZYElegantDealCellLib.podspec; path = ../ZYElegantDealCellLib.podspec; sourceTree = "<group>"; };
+		A93853AC98C15DC26BAF30B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B2557FA13D57830FB475CF96 /* ZYElegantDealCellLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZYElegantDealCellLib.podspec; path = ../ZYElegantDealCellLib.podspec; sourceTree = "<group>"; };
+		B61D032D211B623500F46F49 /* ZYViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYViewModel.h; sourceTree = "<group>"; };
+		B61D032F211B623500F46F49 /* ZYTestTwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTestTwoCell.h; sourceTree = "<group>"; };
+		B61D0331211B623500F46F49 /* ZYTestFourCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTestFourCell.m; sourceTree = "<group>"; };
+		B61D0333211B623500F46F49 /* ZYTestOneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTestOneCell.m; sourceTree = "<group>"; };
+		B61D0334211B623500F46F49 /* ZYTestThreeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTestThreeCell.h; sourceTree = "<group>"; };
+		B61D0335211B623500F46F49 /* ZYTestTwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTestTwoCell.m; sourceTree = "<group>"; };
+		B61D0336211B623500F46F49 /* ZYTestFourCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTestFourCell.h; sourceTree = "<group>"; };
+		B61D0337211B623500F46F49 /* ZYTestOneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTestOneCell.h; sourceTree = "<group>"; };
+		B61D0339211B623500F46F49 /* ZYTestThreeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTestThreeCell.m; sourceTree = "<group>"; };
+		B61D033B211B623500F46F49 /* ZYViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYViewModel.m; sourceTree = "<group>"; };
+		B61D0349211B677800F46F49 /* UIColor+ZYConvenient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZYConvenient.h"; sourceTree = "<group>"; };
+		B61D034A211B677800F46F49 /* UIColor+ZYConvenient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZYConvenient.m"; sourceTree = "<group>"; };
 		D4D86B65343B916C9F015AA9 /* Pods_ZYElegantDealCellLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYElegantDealCellLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F02F1F827C8B754DCCA4E0D7 /* Pods-ZYElegantDealCellLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYElegantDealCellLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYElegantDealCellLib_Example/Pods-ZYElegantDealCellLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F72B86E41C764D66B53EB7A9 /* Pods-ZYElegantDealCellLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYElegantDealCellLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYElegantDealCellLib_Tests/Pods-ZYElegantDealCellLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -148,6 +166,9 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZYViewController.h */,
 				6003F5A6195388D20070C39A /* ZYViewController.m */,
+				B61D032D211B623500F46F49 /* ZYViewModel.h */,
+				B61D033B211B623500F46F49 /* ZYViewModel.m */,
+				B61D032E211B623500F46F49 /* Cells */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -194,6 +215,23 @@
 				7688AE5FAB03AB124C2154AC /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		B61D032E211B623500F46F49 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B61D0337211B623500F46F49 /* ZYTestOneCell.h */,
+				B61D0333211B623500F46F49 /* ZYTestOneCell.m */,
+				B61D032F211B623500F46F49 /* ZYTestTwoCell.h */,
+				B61D0335211B623500F46F49 /* ZYTestTwoCell.m */,
+				B61D0334211B623500F46F49 /* ZYTestThreeCell.h */,
+				B61D0339211B623500F46F49 /* ZYTestThreeCell.m */,
+				B61D0336211B623500F46F49 /* ZYTestFourCell.h */,
+				B61D0331211B623500F46F49 /* ZYTestFourCell.m */,
+				B61D0349211B677800F46F49 /* UIColor+ZYConvenient.h */,
+				B61D034A211B677800F46F49 /* UIColor+ZYConvenient.m */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,8 +394,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* ZYAppDelegate.m in Sources */,
+				B61D0342211B623500F46F49 /* ZYTestThreeCell.m in Sources */,
+				B61D034B211B677800F46F49 /* UIColor+ZYConvenient.m in Sources */,
 				6003F5A7195388D20070C39A /* ZYViewController.m in Sources */,
+				B61D033F211B623500F46F49 /* ZYTestOneCell.m in Sources */,
+				B61D0340211B623500F46F49 /* ZYTestTwoCell.m in Sources */,
+				B61D033D211B623500F46F49 /* ZYTestFourCell.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				B61D0344211B623500F46F49 /* ZYViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +535,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -506,6 +551,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZYElegantDealCellLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZYElegantDealCellLib.'
+  s.summary          = 'TableView 多 cell 的 优雅处理方式'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

@@ -13,4 +13,12 @@
 #ifdef __OBJC__
     @import UIKit;
     @import Foundation;
+
+#import "ZYTestOneCell.h"
+#import "ZYTestTwoCell.h"
+#import "ZYTestThreeCell.h"
+#import "ZYTestFourCell.h"
+#import "ZYPackageForCellModel.h"
+#import "ZYCellRefreshProtocol.h"
+#import "UIColor+ZYConvenient.h"
 #endif
