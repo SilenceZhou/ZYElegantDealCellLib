@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		214CB235211BF7530047CDB2 /* ZYOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 214CB234211BF7530047CDB2 /* ZYOneCell.m */; };
+		214CB238211BF75C0047CDB2 /* ZYTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 214CB237211BF75C0047CDB2 /* ZYTwoCell.m */; };
+		214CB23B211BF7650047CDB2 /* ZYThreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 214CB23A211BF7650047CDB2 /* ZYThreeCell.m */; };
+		214CB23E211BF76D0047CDB2 /* ZYFourCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 214CB23D211BF76D0047CDB2 /* ZYFourCell.m */; };
+		214CB241211BF7B20047CDB2 /* UIColor+ZYConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 214CB240211BF7B20047CDB2 /* UIColor+ZYConvenience.m */; };
+		214CB244211BF8EC0047CDB2 /* ZYViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 214CB243211BF8EC0047CDB2 /* ZYViewModel.m */; };
 		27C218919210A1431B0A7662 /* Pods_ZYElegantDealCellLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F729760CE25AEE9C225D40E /* Pods_ZYElegantDealCellLib_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -39,7 +45,19 @@
 /* Begin PBXFileReference section */
 		0F6CCBBF321F45D64C86DA95 /* Pods-ZYElegantDealCellLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYElegantDealCellLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYElegantDealCellLib_Tests/Pods-ZYElegantDealCellLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1F729760CE25AEE9C225D40E /* Pods_ZYElegantDealCellLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYElegantDealCellLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		449B61D8CEAD836CE89112FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		214CB233211BF7530047CDB2 /* ZYOneCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYOneCell.h; sourceTree = "<group>"; };
+		214CB234211BF7530047CDB2 /* ZYOneCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYOneCell.m; sourceTree = "<group>"; };
+		214CB236211BF75C0047CDB2 /* ZYTwoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTwoCell.h; sourceTree = "<group>"; };
+		214CB237211BF75C0047CDB2 /* ZYTwoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTwoCell.m; sourceTree = "<group>"; };
+		214CB239211BF7650047CDB2 /* ZYThreeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYThreeCell.h; sourceTree = "<group>"; };
+		214CB23A211BF7650047CDB2 /* ZYThreeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYThreeCell.m; sourceTree = "<group>"; };
+		214CB23C211BF76D0047CDB2 /* ZYFourCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYFourCell.h; sourceTree = "<group>"; };
+		214CB23D211BF76D0047CDB2 /* ZYFourCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYFourCell.m; sourceTree = "<group>"; };
+		214CB23F211BF7B20047CDB2 /* UIColor+ZYConvenience.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZYConvenience.h"; sourceTree = "<group>"; };
+		214CB240211BF7B20047CDB2 /* UIColor+ZYConvenience.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZYConvenience.m"; sourceTree = "<group>"; };
+		214CB242211BF8EC0047CDB2 /* ZYViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYViewModel.h; sourceTree = "<group>"; };
+		214CB243211BF8EC0047CDB2 /* ZYViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYViewModel.m; sourceTree = "<group>"; };
+		449B61D8CEAD836CE89112FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZYElegantDealCellLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYElegantDealCellLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,13 +77,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		669BAA3325222BA5556E1C83 /* ZYElegantDealCellLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZYElegantDealCellLib.podspec; path = ../ZYElegantDealCellLib.podspec; sourceTree = "<group>"; };
+		669BAA3325222BA5556E1C83 /* ZYElegantDealCellLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZYElegantDealCellLib.podspec; path = ../ZYElegantDealCellLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC185789F165257518AA73B3 /* Pods_ZYElegantDealCellLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYElegantDealCellLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB514FCB1EB70604C1AEA20 /* Pods-ZYElegantDealCellLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYElegantDealCellLib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYElegantDealCellLib_Example/Pods-ZYElegantDealCellLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CAF649CECFA833F62F412F2F /* Pods-ZYElegantDealCellLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYElegantDealCellLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYElegantDealCellLib_Tests/Pods-ZYElegantDealCellLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DC159733EF68C5069B5371F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DC159733EF68C5069B5371F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EFB017A0FD6153E44598D729 /* Pods-ZYElegantDealCellLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYElegantDealCellLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYElegantDealCellLib_Example/Pods-ZYElegantDealCellLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +113,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		214CB232211BF73E0047CDB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				214CB233211BF7530047CDB2 /* ZYOneCell.h */,
+				214CB234211BF7530047CDB2 /* ZYOneCell.m */,
+				214CB236211BF75C0047CDB2 /* ZYTwoCell.h */,
+				214CB237211BF75C0047CDB2 /* ZYTwoCell.m */,
+				214CB239211BF7650047CDB2 /* ZYThreeCell.h */,
+				214CB23A211BF7650047CDB2 /* ZYThreeCell.m */,
+				214CB23C211BF76D0047CDB2 /* ZYFourCell.h */,
+				214CB23D211BF76D0047CDB2 /* ZYFourCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +170,11 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* ZYViewController.h */,
 				6003F5A6195388D20070C39A /* ZYViewController.m */,
+				214CB23F211BF7B20047CDB2 /* UIColor+ZYConvenience.h */,
+				214CB240211BF7B20047CDB2 /* UIColor+ZYConvenience.m */,
+				214CB242211BF8EC0047CDB2 /* ZYViewModel.h */,
+				214CB243211BF8EC0047CDB2 /* ZYViewModel.m */,
+				214CB232211BF73E0047CDB2 /* Views */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -355,9 +393,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				214CB238211BF75C0047CDB2 /* ZYTwoCell.m in Sources */,
+				214CB244211BF8EC0047CDB2 /* ZYViewModel.m in Sources */,
 				6003F59E195388D20070C39A /* ZYAppDelegate.m in Sources */,
+				214CB241211BF7B20047CDB2 /* UIColor+ZYConvenience.m in Sources */,
 				6003F5A7195388D20070C39A /* ZYViewController.m in Sources */,
+				214CB23E211BF76D0047CDB2 /* ZYFourCell.m in Sources */,
+				214CB23B211BF7650047CDB2 /* ZYThreeCell.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				214CB235211BF7530047CDB2 /* ZYOneCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

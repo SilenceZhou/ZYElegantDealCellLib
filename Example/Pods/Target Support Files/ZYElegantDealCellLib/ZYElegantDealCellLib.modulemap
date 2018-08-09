@@ -1,0 +1,6 @@
+framework module ZYElegantDealCellLib {
+  umbrella header "ZYElegantDealCellLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

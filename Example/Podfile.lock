@@ -1,0 +1,16 @@
+PODS:
+  - ZYElegantDealCellLib (0.1.0)
+
+DEPENDENCIES:
+  - ZYElegantDealCellLib (from `../`)
+
+EXTERNAL SOURCES:
+  ZYElegantDealCellLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZYElegantDealCellLib: 12959756d7aaa709385140b81545495f41b1876a
+
+PODFILE CHECKSUM: be519e51977a0e043ec4772481c5b6ae17ea3af3
+
+COCOAPODS: 1.5.3
