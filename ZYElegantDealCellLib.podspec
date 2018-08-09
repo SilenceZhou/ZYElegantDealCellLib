@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ZYElegantDealCellLib'
-  s.version          = '0.1.2'
-  s.summary          = '利用适配器模式设计的一个优化多Cell处理库,支持动态设置不同cell的高度！'
+  s.version          = '1.0.0'
+  s.summary          = '利用适配器模式设计的一个优化多Cell处理库,支持动态设置不同cell的高度！欢迎使用'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
